@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Juunb 프로필 링크" />
+        <meta property="og:description" content="백엔드 개발자 '노봉준'입니다." />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>Juunb 프로필 링크</title>
+
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+
+            body{
+                background-image: url(images/background_img.jpg);
+                background-size:no-repeat;
+
+            }
+
+            .profile{
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                border:2px solid white;
+                
+                background-image: url(images/myprofile1.png);
+                background-position: center;
+                background-size:cover;
+            }
+
+            .name_me{
+                color:white;
+                font-size:30px;
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+
+            .main{
+                color:white;
+                font-size:20px;
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+
+            .sub{
+                color:white;
+                font-size: 14px;
+                margin-top:20px;
+                font-weight: bold;
+            }
+
+            .wrap{
+                width: 300px;
+                margin:30px auto 0px auto; /** 위 우측 밑 좌측 (시계방향) **/
+                 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap > a{
+                width:300px;
+                height:50px;
+
+                background-color: #204132;
+                border-radius: 8px;
+
+                margin-bottom:10px;
+
+                font-size:14px;
+                font-weight: bold;
+                color:white;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                text-decoration : none;
+
+                box-shadow: 3px 3px 5px 0px black; /**우측, 밑, 꼬리, 꼬리의 선명도**/
+            }
+
+            .wrap > a:hover{
+                background-color: #f2f2f2;
+                color:black;
+                font-size:16px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="name_me">Juunb</h1>
+            <h2 class="main">"준비된 개발자가 되자"</h2>
+            <p class="sub">――――【 Programming Space! 】――――</p>
+                    
+            <a target="_blank" href="https://lefton.tistory.com/">Juunb's Blog</a>
+            <a target="_blank" href="https://github.com/Montep95">Juunb's Github</a>
+            <a target="_blank" href="https://www.instagram.com/bongzur_">Instagram</a>
+            <a target="_blank" href="http://gnob.shop/">Juunb's Project</a>
+            <a target="_blank" href="https://maplestoryworlds.nexon.com/play/13d018ce197645d584cc4ec57bef45ae">Team Project 'Dungeon Maple'</a>
+            <a target="_blank" href="https://www.youtube.com/shorts/5oUQBDzKEyQ">Unity Project 'Growing Blackhole'</a>
+            
+        </div>
+        
+    </body>
+</html>
